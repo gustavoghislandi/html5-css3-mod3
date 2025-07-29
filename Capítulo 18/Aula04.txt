@@ -1,0 +1,36 @@
+Primeiro repositório git e GitHub
+
+Agora é configurar o GitHub Desktop.
+
+Ele tem modo escuro.
+
+Se você estiver usando ele na faculdade, faça o logout sempre. Também remova seu usuário e senha quando usar lá. 
+
+No GitHub Desktop, não precisa ter o seu e-mail original.
+
+Vamos supor que você estudou os cursos de 'html-css' e de 'javascript'. Vocẽ pode criar um repositório para tudo, mas não é recomendado. É melhor criar um repositório para cada um.
+
+Create a new repository.
+Coloque o nome dele como o nome da pasta que você quer subir. E o local é o local da pasta.
+
+Pode selecionar com iniciar com README.
+
+Git ignore é para já começar com um .gitignore de acordo com o seu tipo de código.
+
+License. Você pode escolher qualquer uma, o Guanabara costuma selecionar sempre MIT License.
+
+Até agora isso é um repositório local.
+
+Na pasta oculta .git é onde fica o seu versionamento do repositório local. "Não mexa nela."
+
+--
+Para publicar, recomenda-se compartilahr informações, ou seja, colocar o respositório como público.
+
+'origin' é o repositório remoto.
+
+---
+Ao subir o código, quando você clicar lá no arquivo, por exemplo o android.html, você vai visualizar o código. Depois o Guanabara ensinará a visualizar a página usando o GitHub Pages.
+
+Para compartilhar é simples, só compartilahr a URL, que ficará assim:
+
+github.com/seuusuario/repositorio

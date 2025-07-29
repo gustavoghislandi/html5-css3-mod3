@@ -1,0 +1,50 @@
+O que é Git e GitHub?
+
+O Guanabara já está adiantando que não vai ensinar tudo sobre versionamento de software. É uma parcela do Git e do GitHub.
+
+Ele falou do curso de Git e GitHub [Eu fiz já]. Se está aqui sem ter visto aquele, faça esse antes.
+
+Ele irá explicar o estritamente necessário para colocar o seu projeto no ar.
+
+---
+Conceitos: Repositório local e remoto.
+
+É o local onde você guarda coisas.
+
+--
+Supondo que você faça um site e depois tente melhorar ele durante duas semanas, porém você quer voltar a versão original, não gostou do resultado. Você precisará de guardar cópia do original, backup e talvez diversos arquivos dele. 
+
+O 'gerenciador de versões' serve para isso, para facilitar sua vida nesse tipo de questão.
+
+Um desses softwares é o 'git' (criado pelo Linus Torvalds).
+
+O 'git' é um software que vai manter versões do seu código no seu computador.
+
+Se der problema no computador, você pode perder tudo.
+
+-- 
+Para enviar para uma outra pessoa os arquivos, como o site feito, você teria que enviar um arquivo compactado para ele.
+
+A melhor maneira então é ter um servidor, mandar os arquivos para o servidor e a partir do servidor o seu amigo ou cliente vê o projeto por lá.
+
+--
+'GitHub' é onde você hospedará seu site, seus dados também. Ele não precisa do 'git', mas é importante usar em conjunto.
+
+O 'GitHub' seria como o backup do seu 'git' na nuvem.
+
+Ele foi criado por 4 pessoas e hoje é propriedade da Microsoft.
+
+----
+O seu 'Repositório local' é o git na sua máquina.
+
+O seu 'Repositório remoto' é o no GitHub, na nuvem.
+
+--
+O 'git' é um repositório de códigos.
+
+--
+O GitHub permite vocẽ traalhar em equipe. Cada um da equipe usará o repositório local próprio, mas poderá usar o mesmo repositório remoto.
+
+Isso não será ensinado nesse curso inicial, mas é possível.
+
+'push' é o comando que envia para o repositório remoto.

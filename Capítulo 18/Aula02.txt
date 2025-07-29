@@ -1,0 +1,34 @@
+Instalando Git e GitHub no PC
+
+As ferramentas são passíveis de instalação no Windows, Linux e MacOS.
+
+https://git-scm.com
+
+'scm' significa 'source code manager'(gerenciador de código fonte).
+
+Existe o 'git' 32 bits, porém o GitHub Desktop, que será instalado depois, só existe versão 64 bits.
+
+https://desktop.github.com
+
+Baixe só do oficial. [Se não me recordo, o do Linux só tem em um repositório do GitHub]
+
+--
+Sempre instale o git primeiro.
+
+No momento de selecionar o editor de código padrão, selecione o Visual Studio Code (que não seja o insiders).
+
+Avance na padrão(Git from command line e 3d party software).
+OpenSSL. (padrão)
+Checkout windows, commit unix. (padrão)
+MinTTY (padrão).
+Enable file system caching e Git Credential Manager (acho que é só do Windows) e sem o Enable symbolic links. (padrão).
+
+Reinicie sua máquina.
+
+--
+Instale o GitHub Desktop. É simples. Só dá problema se você tiver um 32 bits (é altamente provável que o seu processador seja 64 bits, mas o windows ainda 32 bits. Então, atualize.)
+
+Depois é fazer o login. (ele mostrará como criar uma conta no GitHub).
+
+--
+Deixe separado um e-mail válido e uma foto sua para o perfil que será criado na próxima aula.

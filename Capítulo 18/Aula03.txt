@@ -1,0 +1,36 @@
+Criando conta no GitHub
+
+O seu e-mail e o seu nome de usuário tem que condizer com o seu próprio nome, tem que ser interessante para o comunidade de usuários e para possíveis empregadores. Tome cuidado com o nome que você vai usar e o nome do seu repositório. Imagine que você vá informar que o seu repositório é o 'gostozinhodebangu', não vai pegar bem. Crie com nomes que não vão fazer você sentir vergonha no futuro.
+
+Senha: coloque uma senha válida e uma senha segura.
+
+--
+Acesse github.com
+
+Sign up
+
+Tente colocar um nome de usuário simples.
+
+Um e-mail para o github se comunicar com você.
+
+Senha.
+
+Diga o que você é.
+Qual a sua experiência.
+Motivos de uso.
+Interessses.
+
+Verifique o e-mail.
+
+Em Settings você pode editar sua foto. Dá pra fazer um recorte dela ao fazer o upload.
+
+Bio(uma descrição)
+
+Em E-mail, você pode marcar para receber tudo ali ou somente coisas mais úteis.
+
+Seu perfil é sempre o site 'github.com/' mais o seu login no path.
+
+--
+Faça o Sign In no GitHub Desktop.
+
+Pronto, você está com git e github desktop funcionando no seu computador. Você já pdoe trabalhar com repositórios locais e remotos.
