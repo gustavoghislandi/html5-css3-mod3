@@ -1,2 +1,9 @@
 Hospedando site gratuitamente com GitHub Pages
 
+Vá no repo remoto, em Settings, GitHub Pages, selecione um Theme. 
+
+Ele gerará um link para aquele repo.
+
+Ele irá abrir com o README.
+
+[Hoje me dia mudou, está na aba da esquerda chamada 'Pages']
