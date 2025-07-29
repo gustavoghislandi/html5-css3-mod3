@@ -7,3 +7,33 @@ Ele gerará um link para aquele repo.
 Ele irá abrir com o README.
 
 [Hoje me dia mudou, está na aba da esquerda chamada 'Pages']
+
+---
+Bem, está bastante diferente do que o Guanabara está falando.
+
+É pelo Pages, vá pela pasta /root. De preferência, coloque o projeto principal na pasta principal (/root) do repo. 
+
+Crie um link DIGITANDO [Seu Texto](URL). Faça um preview antes. Se não aparecer corretamente no preview, provavelmente você colou, por isso digite e revise o que foi escrito.
+
+LEVA ALGUNS MINUTOS ATÉ O PAGES COLOCAR NO AR A NOVA PÁGINA. Então, se você editar algum PATH, seja paciente para ver/testar a modificação.
+
+-----
+O Guanabara recomenda colocar o projeto em um repositório separado, somente para ele, como 'projeto-android' e renomear o arquivo para index.html, ele abrirá direto. É ótimo!
+
+--
+Use também o site 
+
+https://www.qr-code-generator.com
+
+Coloque a sua URL lá e crie um QR Code.
+
+-----
+IMPORTANTE!
+
+O GitHub Pages SOMENTE tem compatibilidade com HTML, CSS e JS na página. 
+
+Ele não tem compatibilidade com Banco de Dados, Node.js, PHP, Python.
+
+Se precisar de mais que isso, aí use um domínio pago [talvez tenha algum free para projetos pequenos].
+
+-----
