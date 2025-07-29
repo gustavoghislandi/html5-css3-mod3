@@ -1,0 +1,15 @@
+Gerenciando Repositórios GitHub
+
+Ele está mostrando como subir repositório. Dar commit e push pelo GitHub Desktop.
+
+"Esse [sic] é o grande erro do iniciante: fazer tudo correndo." [Ele fez isso no exemplo de criar um repo privado ao invés de público]
+
+Para mudar o repo para privado ou público, e também para deletar, é ir em Settings do site do GitHub e ir na Danger Zone.
+
+Mudar o repo local, ele disse para usar o GitHub Desktop, mas não vejo diferença entre excluir a pasta também.
+
+Lembrando que apagar um não exclui o outro, você tem que apagar ambos (local e remoto) se quiser apagar ambos.
+
+--
+Segundo ele, esse é o basicão (criar repo, commitar, mudar (priv/publ) e excluir repo).
+
