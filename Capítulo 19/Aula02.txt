@@ -1,0 +1,16 @@
+Colocando uma imagem de fundo no seu site
+
+A Aula01.txt não existe porque era somente para baixar as imagens da atividade.
+
+--
+No GitHub Desktop, clique em Help e veja se há atualizações.
+
+Descobri que as aspas (simples ou duplas) no valor url() de uma propriedade CSS são opcionais desde que não contenham caracteres speciais (como espaços, parênteses, ou outros caracteres reservados).
+
+Ao colocar uma imagem de fundo, ela sempre irá no tamanho total:
+    - se ela for menor que a área do background, ela será multiplicada para preencher o espaço.
+    - Se ela for maior que a área do background, ela aparecerá cortada, não reduzirá de tamanho.
+
+Dica: A maneira mais adequada de programar é escrever e testar, escrever e testar. Ao invés de escrever um monte ou até o código inteiro para depois testar. [Eu já faço assim]
+
+Lembrete: Muito cuidado com o tamanho (em KB, MB) do arquivo para não deixar seu site lento/pesado.
