@@ -1,0 +1,24 @@
+Clonando Repositórios GitHub
+
+Sobre isso, o Guanabara diz que tem gente que pensa assim: "Ah, ele está 'roubando' o meu código". Ele disse que não, todas as referências ficam, todas as ligações ficam e 'quando se colabora com a comunidade tudo dá certo no final, pode acreditar em mim' (Guanabara).
+
+Podemos clonar qualquer repositório que seja público. Ou os privados nossos ou que tenhamos acesso.
+
+--
+O Guanabara está simulando você na faculdade clonando um repositório em que você já está trabalhando nele também em casa.
+
+Diz ele que, se tua faculdade for boa, já tem git e GitHub. A minha achp que tem só git, negócio lá é linha de código[Mas confesso que costuma dar mais problema que usar o Desktop, principalmente porque algumas maneiras de subir código já estão 'deprecadas', digamos assim e as ourtas são mais complexas para se resolver rapidamente enquanto em aula(que não pode e não vai parar para você ficar ajustando seu git).].
+
+Você pode abrir no Desktop (precisa estar logado no Desktop) ou baixar o zip. Na verdade, também dá pra clonar por linha de código também.
+
+--
+Nota do Guanabara: Não pense que, por baixar o código e ver ele digitado, você já entendeu o código. Isso é um erro muito comum.
+--
+
+Ele disse para deixar seus repos públicos para o pessoal dar uma estudada também.
+
+Você pode, por exemplo, clonar o repositório do kernel do Linux. Você pode estudar ele por esse meio - imagine!
+
+Veja a quantidade de coisas que você pode aprender ao seguir as pessoas e repositórios 'certos', clonando, estudando...
+
+Se você quiser participar de um projeto, você pode criar um 'fork' do projeto ou criar 'pool requests'. Isso não será falado nesse curso, mas você pode aprender isso para o futuro.
