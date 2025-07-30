@@ -1,0 +1,35 @@
+Recursos Sociais do GitHub
+
+O GitHub é uma ótima plataforma social para programadores.
+
+Este vídeo não tenta ser completo porque a parte social do GitHub é muito grande.
+
+Você pode seguir pessoas e repositórios.
+
+Há uma barra de busca que tem 'search or jump to...'. Essa barra te permite buscar a informação no usuário ou no GitHub como um todo.
+
+Existe o Follow para seguir.
+
+Você não consegue seguir uma marca, mas da pra colocar uma estrela no repositório. A estrela é equivalente a seguir para repositórios.
+
+O fork serve para clonar repositórios (e seguir adiante a partir daí).
+
+--
+Em github.com/explore você pode explorar projetos e pessoas.
+
+Ali, você pode ver, por exemplo, 'Trending', que seriam os repositórios mais famosos, mais movimentados, mais 'quentes', 'do momento', por assim dizer. São os repositórios ou devs que as pessoas estão dando mais estrelas.
+
+É possível procurar por linguagem, seja a escrita/de origem ou a de programação. [Ele mostrou um frontend/vagas, parece interessante.]
+
+Tem repositórios, como o da Microsoft, que tem o VS Code, e você pode instalar usando o npm (na parte Users - que seria onde mostra por quantos Users é usando).
+
+--
+Então, você consegue ver quem você está seguindo, para quais repos você deu estrela. Você consegue, inclusive, seguir os seus repos que você considere imporante para você.
+
+Você consegue também (parte imporante do GitHub) ajudar e ser ajudado por pessoas por meio das Issues. Você abre uma Issue relatando um problema e o dono do repositório ou outra pessoas irá olhar e poderá responder.
+
+Se a Issue foi resolvida, é só responder com 'Close and comment'. Senão, só "Comment' dando prosseguimento.
+
+Você pode também setar um status temporário ou fixo. Esse status fia embaixo da foto.
+
+Se você ficar explorando mais o GitHub, você vai encontrar muito mais coisas.
