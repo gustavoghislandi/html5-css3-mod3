@@ -1,0 +1,21 @@
+Imagens que se repetem no fundo do site
+
+Ao usar imagens de urls saiba que você fica dependente daquele servidor estar fornecendo aquela imagem.
+
+A imagem sempre virá no tamanho original dela, partindo do ponto (0,0), que é na esquerda, em cima.
+
+Para reconfigurar o tamanho da imagem de fundo use background-size, exemplo: 
+
+    background-size: 100px 100px; 
+
+Se você alterar o tamanho da 'viewport' isso não alterará o tamanho da(s) imagem(ns) do fundo.
+
+A repetição é automática, por padrão sempre acontecerá. Contudo, você pode alterar isso por meio do background-repeat, exemplo.
+
+    background-repeat: no-repeat;
+
+Há também outros valores, como repeat-x e repeat-y. O primeiro repete somente uma linha no eixo x, o segundo somente uma no eixo y.
+
+--
+
+[O Guanabara selecionou umas imagens com padrões que permitem repetições sem parecer que estão sendo repetidas. Isso é algo bem interessante e pode ter muitas utilidades.]
