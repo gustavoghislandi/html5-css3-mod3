@@ -32,7 +32,7 @@ IMPORTANTE!
 
 O GitHub Pages SOMENTE tem compatibilidade com HTML, CSS e JS na página. 
 
-Ele não tem compatibilidade com Banco de Dados, Node.js, PHP, Python.
+Ele não tem compatibilidade com Banco de Dados, Node.js, PHP, Python...
 
 Se precisar de mais que isso, aí use um domínio pago [talvez tenha algum free para projetos pequenos].
 
