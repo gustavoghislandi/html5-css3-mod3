@@ -1,0 +1,12 @@
+Manutenção em sites hospedados no GitHub Pages
+
+Mais pra frente, você aprenderá que não é correto ficar mexendo na branch master(main). Não é uma boa técnica, uma boa prática. Nesse curso não será falado isso.
+
+O Guanabara corrigiu algo no projeto dele. Havia uma margin-bottom onde era para ser padding-bottom. 
+
+O margin do header passava por cima do outro box, enquanto o padding empurra ele adiante.
+
+Como eu não copiei, não tenho o que editar. O que eu tinha que editar, a princípio, editei antes já.
+
+--
+Basicamente a correção dá-se com um 'commit' seguido de 'push'.
