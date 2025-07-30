@@ -1,0 +1,50 @@
+GitHub em vários PCs
+
+Esta aula é para simular você estando na faculdade ou outro computador, onde você quer baixar o seu trabalho do GitHub, operar nele e ir embora sem deixar rastros.
+
+Você vai precisar ter na máquina:
+
+- um navegador.
+- o VS Code.
+- o git.
+(e - o GitHub Desktop)
+
+Acho que é só um aprofundamento do exemplo já dado. 
+
+Vá em Account do GitHub Desktop, depois em Sign in. Isso já mostra seus repos.
+
+PASSO IMPORTANTE: Poderia dar erro se não estiver com o git, aí clique em File > Options... > Git > Save. Só isso.
+
+Clique no repo, depois em Clone, selecione o local para clonar e clone.
+
+Vamos supor que você baixou o repo e criou uma pasta com exercício novo.
+
+Aí você commita. 
+
+Se você não fez o 'PASSO IMPORTANTE', dará erro nesse momento.
+
+Depois você clica em push.
+
+Aí você fica fazendo as atualizações que você quiser.
+
+--
+Para ir embora, sair de tudo.
+
+Feche tudo e deixe somente o GitHub Desktop.
+
+Nele, clique em Repository > Remove (marcando para eliminar da lixeira também). Só vai funcionar se você fechar as outras aplicações envolvidas (como o VS Code) antes.
+
+Vá em File > Options > Sign out.
+
+Depois,
+
+Vá em File > Options > Git > Apague o nome e o e-mail > Save.
+
+Esvazie a lixeira.
+
+--
+Com isso, você vai no local, trabalha o que tem que trabalhar versionado, sobe as coisas e vai embora sem deixar rastros [em nível mais simples, claro].
+
+Tem o vídeo dele que diz "Seu GitHub muito mais seguro", é importantíssimo, porque vai que instalaram algum keylogger na máquina, algo assim. Então você cria por lá autenticação por 2 fatores e tal.
+
+Ao fazer essas coisas, o GitHub, por exemplo, pedirá um código de autenticação. Dá mais trabalho e justamente por isso é que fica mais seguro.
