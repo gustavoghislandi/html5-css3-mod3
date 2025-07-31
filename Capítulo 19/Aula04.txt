@@ -36,15 +36,3 @@ Ou seja, quando movimentar a tela, essa referência sempre aparecerá primeiro e
 
 --
 Lembre-se sempre de mexer na altura do 'body' porque, senão, por padrão, ele é achatado.
-
-
-
-
-
-
-
-
-
------
-Outro commit. Ao que tudo indica, é porque não estava batendo o --global com a conta logada no GitHub Desktop.
-Na dúvida, melhor usar linha de comando.
