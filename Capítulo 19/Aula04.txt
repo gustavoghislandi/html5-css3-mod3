@@ -36,3 +36,14 @@ Ou seja, quando movimentar a tela, essa referência sempre aparecerá primeiro e
 
 --
 Lembre-se sempre de mexer na altura do 'body' porque, senão, por padrão, ele é achatado.
+
+
+
+
+
+
+
+
+
+-----
+Teste de commit. Eu estava usando o GitHub Desktop, mas parece que ele não estava contabilizando meus commits. Me pergunto se é porque no --global estava outra conta minha. Testando.
