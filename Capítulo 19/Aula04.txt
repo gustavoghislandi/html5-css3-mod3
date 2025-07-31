@@ -46,4 +46,5 @@ Lembre-se sempre de mexer na altura do 'body' porque, senão, por padrão, ele �
 
 
 -----
-Teste de commit. Eu estava usando o GitHub Desktop, mas parece que ele não estava contabilizando meus commits. Me pergunto se é porque no --global estava outra conta minha. Testando.
+Outro commit. Ao que tudo indica, é porque não estava batendo o --global com a conta logada no GitHub Desktop.
+Na dúvida, melhor usar linha de comando.
