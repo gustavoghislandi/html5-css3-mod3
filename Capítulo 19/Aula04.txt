@@ -1,0 +1,38 @@
+Configurando a posição da imagem no fundo do site
+
+Sobre o backgroud-position, é interessante notar que a resposta a diferentes tamanhos de telas será diferente para cada um dos casos.
+Exemplo, no valor 'center center', ao reduzir a largura de tela, esquerda e direita serão reduzidas.
+Já na posição 'left center', a parte centro esquerda da tela permanece e a parte da direita é quem vai sumindo.
+
+O que é possível notar? 
+
+Então, quando existe, por exemplo, 'left center', e se expande a tela horizonalmente, a posição da esquerda permanece e expande a aparição da parte direita.
+Enquanto que se a expansão for vertical, como é 'center' no 'segundo valor', tanto a parte superior (top) quanto a inferior (bottom) irão aparecer na tela, ou seja, a expansão é simétrica nesse eixo.
+
+Olhando para as imagens do fundo003.html:
+A expansão será sempre para ambos os sentidos do eixo se a posição for center.
+A expansão será sempre para o sentido oposto do valor do eixo se a posição for left, right, top ou bottom.
+
+Contudo, testando no fundo004.html:
+    Aparentemente, 'bottom' right ou 'right bottom' colocam na mesma posição. Então não parece ter algo como eixo x ou y fixos.
+
+O Guanabara disse que é primeiro 'coluna' depois 'linha'. Do ponto de vista dele, então será left, center ou right na posição do primeiro valor. Enquanto no segundo valor será top center e bottom. Entretanto, como eu mesmo averiguei, isso pode ser diferente, pois o primeiro valor "aceita" outros valores como top e bottom e o segundo "aceita" valores como left e right.
+
+
+---
+O QUE EU PERCEBI:
+
+    Valores "contraditórios" ou "iguais"(com exceção de 'center center', que parece, mas não é igual) resetam a posição para a padrão (default). Exemplos: top bottom, bottom top, right left, left right, top top, bottom bottom, left left, right right.
+
+    Valores que funcionam são sempre complementares, cada um indicando um eixo, e eles são intercambiáveis. Exemplo: 'top left' e 'left top', tem a mesma posição; 'top center' e 'center top' também.
+
+    Se o valor for único, exemplo: 'top', 'bottom'... o valor equivale a colocar o 'valor center', ou seja, 'top center' e 'bottom center', respectivamente. 'center' será 'center center' também.
+
+---
+
+O valor do backgroud-position sempre será a referência principal, o ponto de ancoragem. 
+
+Ou seja, quando movimentar a tela, essa referência sempre aparecerá primeiro e dela derivará o resto dos movimentos. É a referência estática/fixa da qual as outras partes se movem em relação a ela. Ela sempre aparecerá com prioridade na tela. Então, se você colocar 'bottom right' (ou 'right bottom') a parte inferior direita sempre estará aparecendo, e a expansão ou retração da tela acontecerá nas outras partes da imagem.
+
+--
+Lembre-se sempre de mexer na altura do 'body' porque, senão, por padrão, ele é achatado.
