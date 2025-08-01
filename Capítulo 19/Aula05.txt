@@ -24,6 +24,4 @@ Enquanto o:
 recortará a imagem na largura ou altura se necessário.
 Ou seja, ele não ocupa 100% da imagem, mas ocupa 100% da viewport.
 
---
-
 Se o texto da caixa (só aumentar bastante o <p>, por exemplo) for muito grande, ele vai ultrapassar, a menos que você use repeat-y, mas isso nem sempre é uma boa solução. Então, na próxima aula o Guanabara trará a solução.

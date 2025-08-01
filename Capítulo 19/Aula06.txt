@@ -1,0 +1,34 @@
+background-attachment e shorthand
+
+Nesta aula se falará sobre vínculos do backgroud. Isto é, se ele vai ficar vinculado ao conteúdo ou travado na tela.
+
+Vinculo ou attachment.
+
+ O padrão é 'scroll': rolar o conteúdo, rola o fundo junto.
+
+ Já o 'fixed': Rola o conteúdo e o fundo fica.
+
+    background-attachment: fixed;
+
+--
+shorthand backgroud:
+
+    background: [color] [image] [position] [size] [repeat] [attachment];
+
+    background: black url('imagens-cap19/wallpaper002.jpg') center center / cover no-repeat fixed;
+
+NOTA: A '/' antes do size é obrigatória para funcionar.
+
+------------------------ChatGPT sobre a barra '/' na sintaxe do shorthand---------------------------
+A barra / na propriedade background é usada para separar dois valores específicos relacionados ao tamanho da imagem de fundo e à repetição da imagem. Ela é uma parte da sintaxe de shorthand e foi introduzida no CSS para tornar o código mais limpo e fácil de usar, especialmente quando se trata de definir o tamanho da imagem de fundo.
+
+Aqui está o que a barra faz:
+Exemplo de shorthand com /:
+
+background: url('imagem.jpg') center / cover no-repeat fixed;
+
+Como a barra funciona:
+
+    Antes da barra: Você define a posição da imagem (neste caso, center).
+
+    Após a barra: Você define o tamanho da imagem (aqui, cover).
