@@ -1,0 +1,46 @@
+Centralização vertical de caixas
+
+Infelizmente não funciona com o margin. O margin auto só serve para alinhamento/centralização horizontal.
+
+O 'container' deverá ter posição relativa, que é a padrão (por mais que seja a padrão, é bom especificar, porque faz diferença)
+
+    position: relative;
+
+Enquanto o 'conteúdo' deve ter posição absoluta.
+
+    position: absolute;
+
+Isso, por si só, não parece mudar nada. Porém, agora o conteudo pode receber as propriedades top, right, bottom, left.
+
+E, a partir delas, é possível usar valores percentuais.
+
+--
+
+Com o background com a imagem target001.png em fundo007.html, percebe-se que top: 50% e left:50% realmente colocam o conteudo a 50% da imagem, porém é na ponta esquerda do topo do conteúdo, ou seja, o "ponto" (50%,50%) será onde o ponto (0,0) do conteúdo ficará por padrão. Do contrário, ele inicia no ponto (0,0) do container, como é o padrão. 
+
+Então, inicia-se o conteúdo no ponto (0,0) e especifica-se para ele ir para a posição tal. No exemplo até então, 50% em relação a top e 50% em relação a left. O que faz com que o canto esquerdo superior do conteudo fique exatamente no centro do container.
+
+--
+'transform' serve para mexer em qualquer caixa e fazer uma transformação nela. O valor função 'translate' vai mexer nele nos dois eixos (x e y).
+
+Então você irá usar tranlate com -50% e -50%, assim:
+
+     transform: translate(-50%, -50%);
+
+Com isso, a caixa conteudo sempre ficará centralizada em relação ao container.
+
+--
+RESUMO (ver fundo007.html):
+
+    #container {
+        position: relative;
+    }
+
+    #conteudo {
+        position: absolute;
+
+        top: 50%;
+        left: 50%;
+
+        transform: tranlate(-50%, -50%)
+    }
