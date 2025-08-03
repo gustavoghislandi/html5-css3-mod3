@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Fundo com astronauta</title>
+
+    <!-- A maneira mais fácil (e mais certa) de fazer este desafio é já editar a imagem colocando o astronauta dentro dela e ter somente um background image. Mas, pelo exercício, vou fazer isso. -->
+    <!-- A segunda maneira mais fácil é o astronauta ser uma imagem (img). Mas, pelo exercício, vou fazer isso. -->
+
+    <style>
+        body {
+            height: 96vh;
+            background-color: #020c15;
+            background-image: url('imagens/espaco-reduzida.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+
+            position: relative;
+        }
+        #content {
+            height: 254px;
+            width: 250px;
+
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            background-color: transparent;
+            background-image: url('imagens/astronauta-reduzida.png');
+
+            position: fixed; /*Necessário para permanecer enquanto ocorre o scroll*/
+
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%,-50%);
+
+            background-attachment: scroll;
+
+        }
+
+        p {
+            width: 200px;
+            background-color: transparent;
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="content"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptas quod magnam impedit, accusantium ex et voluptatem laudantium animi, officia accusamus excepturi aliquam facilis. Temporibus iure officiis architecto officia quis?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptas quod magnam impedit, accusantium ex et voluptatem laudantium animi, officia accusamus excepturi aliquam facilis. Temporibus iure officiis architecto officia quis?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptas quod magnam impedit, accusantium ex et voluptatem laudantium animi, officia accusamus excepturi aliquam facilis. Temporibus iure officiis architecto officia quis?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptas quod magnam impedit, accusantium ex et voluptatem laudantium animi, officia accusamus excepturi aliquam facilis. Temporibus iure officiis architecto officia quis?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptas quod magnam impedit, accusantium ex et voluptatem laudantium animi, officia accusamus excepturi aliquam facilis. Temporibus iure officiis architecto officia quis?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptas quod magnam impedit, accusantium ex et voluptatem laudantium animi, officia accusamus excepturi aliquam facilis. Temporibus iure officiis architecto officia quis?
+
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptas quod magnam impedit, accusantium ex et voluptatem laudantium animi, officia accusamus excepturi aliquam facilis. Temporibus iure officiis architecto officia quis?
+        vLorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptas quod magnam impedit, accusantium ex et voluptatem laudantium animi, officia accusamus excepturi aliquam facilis. Temporibus iure officiis architecto officia quis?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptas quod magnam impedit, accusantium ex et voluptatem laudantium animi, officia accusamus excepturi aliquam facilis. Temporibus iure officiis architecto officia quis?
+
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptas quod magnam impedit, accusantium ex et voluptatem laudantium animi, officia accusamus excepturi aliquam facilis. Temporibus iure officiis architecto officia quis?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptas quod magnam impedit, accusantium ex et voluptatem laudantium animi, officia accusamus excepturi aliquam facilis. Temporibus iure officiis architecto officia quis?
+
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptas quod magnam impedit, accusantium ex et voluptatem laudantium animi, officia accusamus excepturi aliquam facilis. Temporibus iure officiis architecto officia quis?
+
+    </p>
+</body>
+</html>
