@@ -1,0 +1,8 @@
+Download e organização dos arquivos
+
+Fazer o Desafio 12. O pacote está no repositório html-css do Guanabara.
+
+Tem o PDF e o pacote com os arquivos.
+(Se você quiser, você mesmo pode escrever seu texto, pegar suas imagens, mas ali no pacote ele já deu essa adiantada no conteúdo HTML.)
+
+Tente fazer sozinho antes.
