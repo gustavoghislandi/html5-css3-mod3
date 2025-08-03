@@ -1,3 +1,5 @@
 Um projeto completo usando HTML e CSS
 
 Criar o projeto e colocar no ar no GitHub Pages.
+
+https://professorguanabara.github.io/projeto-cordel
