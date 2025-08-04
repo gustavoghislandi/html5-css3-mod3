@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@font-face {
+    font-family: "Sriracha";
+    src: url('fontes/Sriracha/Sriracha-Regular.ttf');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* position: relative; */
+}
+
+:root{
+    --color1: white;
+    --smokeness: rgba(0, 0, 0, 0.322);
+}
+
+header, footer {
+    background-color: black;
+    color: var(--color1);
+    text-align: center;
+}
+
+header {
+    padding: 5vh;
+}
+
+header h1 {
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-size: 10vw;
+    font-variant: small-caps;
+}
+
+header p, footer p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header a, footer a {
+    text-decoration: none;
+    color: var(--color1);
+    font-weight: bold;
+    font-style: normal;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+main p {
+    font-family: 'Sriracha';
+    font-size: 7vh;
+    padding: 1vh;
+}
+
+main .sem-imagem {
+    background-color: var(--color1);
+}
+
+main .com-imagem {
+    background-color: green;
+}
+
+main .com-imagem p {
+    background-color: var(--smokeness); /*Aqui o Guanabara deixou ligeiramente mais escuro*/
+    color: var(--color1);
+    width: max-content;
+    /* margin: 0vh 2vw; */
+}
+
+#foto-fundo1, #foto-fundo2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    padding: 10vh 3vh;
+/* 
+    position: absolute; */
+}
+
+#foto-fundo1 {
+    background-image: url('imagens/background001.jpg');
+}
+
+#foto-fundo2 {
+    background-image: url('imagens/background002.jpg');
+}
+
+footer {
+    /*Ele parece ter deixado o footer com tamanhos fixos, vou deixar também.*/
+    padding: 10px;
+}
