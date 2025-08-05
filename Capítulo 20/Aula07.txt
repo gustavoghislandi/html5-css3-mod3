@@ -1,2 +1,13 @@
 Hospedando o Projeto Cordel gratuitamente
 
+Basicamente é criar um repositório novo no GitHub (e local também), colocar os arquivos do Projeto lá, com a página principal nomeada como index.html.
+
+Depois, ir em Settings do GitHub. Depois na seção Pages, e lá mudar de None para o Branch. No momento em que escrevo já é diferente, seria o Main, com o diretório /root.
+
+Após isso, aguarde um tempo e será hospedado no seu github.io .
+
+O meu ficou em https://gustavoghislandi.github.io/projeto-cordel/
+
+Ele diz para você continuar e criar outros projetos próprios com o que já foi aprendido até aqui.
+
+-- Fim do Capítulo 20 --
