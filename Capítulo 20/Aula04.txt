@@ -1,0 +1,5 @@
+Ajustes no CSS do projeto
+
+[Ele colocou no html e no body o tamanho mínimo deles como 100vh. Não vi necessidade nisso, não precisei colocar no meu.]
+
+[Ele colocou line-height de 2em. Não mexi nisso.]
