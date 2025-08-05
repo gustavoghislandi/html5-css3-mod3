@@ -1,0 +1,17 @@
+Colocando as fontes ao projeto
+
+[Ele disse que a responsividade por proporção (percentual) não é o melhor dos mundos, o ideal seria usar media queries (mas, nesse desafio, ainda foi usado o proporcional).]
+
+[Para adequar a sombra de fundo ao conteúdo eu usei:
+
+    width: max-content;
+
+enquanto ele usou:
+
+    display: inline-block;
+    
+Como não era exatamente um inline-block, considero o meu ligeiramente melhor, apesar de não existir tanto essa preocupação em estilização.    
+    ]
+
+
+Ele disse que é importante você mesmo ir se desafiando, criando coisas novas ao invés de só copiar.
