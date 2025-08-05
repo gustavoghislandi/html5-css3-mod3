@@ -1,0 +1,23 @@
+Imagens com efeito Parallax simples
+
+[Esqueci de colocar algo que eu havia observado já, o background-position das imagens. Um era center right e o outro center left.]
+
+Ele botou sombra no fundo dos textos com imagem de fundo. [O meu já estava bom, mas vou adicionar que melhora.]
+
+Como a ideia era a parte branca ser como uma folha [não me recordo de ele ter explicado isso no desafio], ele colocou uma sombra que deveria simular a parte branca ser uma folha, e, para isso, ele utilizou sombra na parte das imagens usando inset.
+
+--
+Fiz uma pesquisa e vi que consigo botar sombras em cima e embaixo, sem colocar nas laterias assim (com separação por vírgulas):
+
+    box-shadow: inset 0px 10px 13px -10px rgba(0, 0, 0, 0.5), inset 0px -10px 13px -10px rgba(0, 0, 0, 0.5);
+    /* A primeira sombra é para a parte superior, a segunda para a parte inferior */
+
+E poderia usar a mesma lógica para o inverso, mas aí mudaria os dois primeiros valores.
+
+Sintaxe:
+
+    box-shadow: inset <horizontal> <vertical> <blur-radius> <spread-radius> <color>;
+
+--
+
+Para funcionar a parte do efeito parallax, com o background-attachment: fixed, é importante que a imagem anterior sumi da tela antes da outra imagem aparecer, disse o Guanabara. [Da maneira que foi feito, isso já ocorre. Mas testei e realmente fica estranho, principalmente com imagens tão diferentes, uma perto e outro longe, uma dentro de um ambiente e outra fora...]
