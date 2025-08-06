@@ -1,0 +1,5 @@
+Aprendendo a trabalhar com tabelas grandes
+
+Como as tags são semânticas, o thead será sempre no topo e o tfoot será sempre no final da tabela, independentemente de onde estiverem digitados os códigos dentro de table. (ver tabela003.html)
+
+O Guanabara disse que o W3C recomenda que voce use essas tags como thead, tbody, tfoot, primordialmente para tabelas grandes. Mas nada impede que voce use em tabelas pequenas.
