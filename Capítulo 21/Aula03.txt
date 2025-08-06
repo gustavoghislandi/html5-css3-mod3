@@ -1,0 +1,15 @@
+Alinhando o conteúdo em tabelas
+
+[Percebi uma coisa de início: colocar altura e largura em 'table' delimita o tamanho total da table, de modo que o conteúdo se reorganize caso você altere a altura de algo, por exemplo. Entretanto, há um limite para isso. Você não pode estrapolar demais senão o tamanho total da table aumenta. 
+
+Outra coisa, percebi que alterar a altura de um 'td' muda a dos vizinhos que estão na mesma 'tr'.]
+
+Ele colocou text-align no td. Eu botei no table. Funciona igual.
+
+--
+Existe o vertical-align, cujos valores são tip, middle (não é center), bottom.
+Exemplo:
+
+    vertical-align: top;
+
+Diferentemente do text-align, esse comando não funcionou dentro do 'table', funcionou dentro do 'td'.
