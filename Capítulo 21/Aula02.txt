@@ -1,0 +1,23 @@
+Sua primeira tabela em HTML
+
+Abra o Excel(software de planilhas) para fazer um teste.
+
+Primeira coisa ele tirou as linhas. Disse que não são linhas de tabela, são linhas de grade.
+
+Por padrão, as tabelas não têm bordas, tem que colocar, se quiser.
+
+--
+
+Tags <table> </table> delimitam a tabela.
+
+
+
+border-collapse: collapse; /*Une as bordas todas dos 'td', que por padrão são separadas (separate). É usado no CSS de 'table'. */
+
+--
+
+A tag de fechamento de <td> e opcional, mas cuidado.
+
+Se a hierarquia não foi obedecida, os dados (errados) inseridos dentro de table vão aparecer ou antes ou depois da tabela.
+
+Tabela é uma estrutura muito rígida. Ela foi criada para organizar dados.

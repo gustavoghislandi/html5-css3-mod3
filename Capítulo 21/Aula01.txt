@@ -1,0 +1,9 @@
+Ainda podemos usar tabelas em HTML?
+
+Tem gente que usa tabela para coisas que não são tabela.
+
+VOCÊ NÃO PODE (NÃO DEVE) USAR TABELA PARA CRIAR A ESTRUTURA DO SEU SITE. Não é assim que se constrói um site hoje em dia. Usa-se o as CSS (que tem grid, flexbox...)
+
+Na época do HTML4 os sites eram criados em tabelas [me lembra uma estrutura grid].
+
+Usar tabelas para tabelas de dados é o certo. Nada de divs. Tabela. [Meio óbvio, mas entendi o porque da explicação. É que eu aprendi certo desde o início.]
