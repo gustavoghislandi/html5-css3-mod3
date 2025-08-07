@@ -3,3 +3,5 @@ Tabelas responsivas
 A dica aqui, basicamente, foi envelopar a table em uma div e usar a propriedade css overflow-x:auto.
 
 Com isso, somente a tabela vai rolar, sem a página inteira rolar.
+
+------------ Fim do Módulo 3 ---------------------
