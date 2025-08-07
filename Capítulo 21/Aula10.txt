@@ -1,0 +1,5 @@
+Exemplo de tabela completa
+
+Basicamente era para fazer outra tabela. Fiz.
+
+NOTA: Só existe escopo ('scope') em 'th'.
