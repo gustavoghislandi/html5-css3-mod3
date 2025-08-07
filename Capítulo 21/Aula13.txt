@@ -1,0 +1,27 @@
+Agrupando Colunas com colgroup
+
+'colgroup' e 'col' também são tags.
+
+Você pode criar uma colgroup e dar uma classe para cada col. Assim você faz o CSS da coluna inteira de uma vez só.
+
+<col> não tem tag de fechamento.
+
+Exemplo:
+
+    <colgroup>
+        <col class="amarelo">
+        <col class="vermelho" span="2"> <!--Expande para essa tag se referir a duas colunas.-->
+        <col class="verde">
+    </colgroup>
+
+<style>
+    .amarelo {
+        background-color: yellow;
+    }
+    .vermelho {
+        background-color: vermelho;
+    }
+    .verde {
+        background-color: verde;
+    }
+</style>
