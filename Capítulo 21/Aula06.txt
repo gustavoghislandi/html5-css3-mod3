@@ -1,0 +1,26 @@
+Efeito Zebrado na tabela com HTML e CSS
+
+O efeito zebrado ajuda o cérebro a não se perder lendo o conteúdo da tabela.
+
+O efeito zebrado faz mais sentido quando se tem muitas colunas.
+
+
+    tbody > tr:nth-child(2n){
+            background-color: lightgrey;
+        }
+
+As 'tr' filhas de 'tbody', a cada 2 (2n) reberão o CSS.
+
+Pode ser (2n)[par], (2n-1) [ímpar], (odd) [ímpar], (even) [par], (3n), (4n)...
+
+Exemplo:
+
+    tbody > tr:nth-child(odd){
+            background-color: white;
+        }
+
+    tbody > tr:nth-child(even){
+            background-color: lightgrey;
+        }
+
+Assim vocẽ garante o zebrado, caso o fundo seja uma imagem ou de outra cor, por exemplo.
