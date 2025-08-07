@@ -1,0 +1,35 @@
+Cabeçalho fixo em tabelas grandes
+
+Essa dica não está no PDF, somente no vídeo. À época,ele não funcionava em todos os navegadores.
+
+Serve para tabelas com muitas linhas, que passam o tamanho da viewport.
+
+    thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(73, 73, 73);
+        }
+
+O top é para ele fixar na posição, mas irá só o texto. -1px é para tirar o espacinho que fica se for 0px. O background-color é para a cor de fundo ir junto com o texto.
+
+Ele sumirá quando a tabela sumir.
+
+
+------------------------------------------------
+
+BAITA DICA QUE ENCONTREI NOS COMENTÁRIOS:
+
+Exemplo:
+
+p*10>lorem500   (isso fará 10 parágrafos com lorem de 500 caracteres cada. O lorem aceita lorem10*20, por exemplo, também)
+
+
+>: Em Emmet, o símbolo de maior (>) é usado para indicar que o conteúdo ou elemento gerado deve estar "dentro" de outro.
+
+Dicas para usar Emmet de forma eficiente
+
+    Para adicionar atributos: a[href="http://example.com"] cria uma tag <a href="http://example.com"></a>.
+
+    Para agrupar elementos: Use div>ul>li*5 para gerar uma estrutura HTML com div > ul > li repetido 5 vezes.
+
+    Para adicionar classes e ids: div.class1#id1 cria <div class="class1" id="id1"></div>.
