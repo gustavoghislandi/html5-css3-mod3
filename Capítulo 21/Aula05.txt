@@ -1,0 +1,21 @@
+Caption e Escopo de títulos em tabelas
+
+'caption' é a legenda da tabela. No caption não se pode colocar 'tr', 'th' nem 'td', é somente um texto.
+
+-------GPT-------
+"A <caption> ajuda a descrever o conteúdo da tabela de maneira acessível, especialmente para leitores de tela."
+-----FIM GPT-----
+
+O caption é semântico também no sentido de que se você colocar ele em outro lugar do HTML dentro da tag table, ele ainda aparecerá no topo.
+
+Tudo que não for dado (td) é 'th'. Ou seja, th é para os campos que indicam os dados que virão na sequência, seja em linha ou coluna. No exemplo da 'tabela003.html' são "Estado", "População" e "Total de Habitantes".
+
+Para reforçar isso, existe o atributo 'scope', que pode ser 'col' (de coluna) ou 'row' de linha, por exemplo.
+
+    <th scope='col'> Estado </th>
+
+No exemplo acima, indica-se que os dados na coluna subsequênte dizem respeito àquele th 'Estado'.
+
+O 'scope' é muito importante para que os mecanismos de busca (SEO) analisem os dados do seu site de forma coerente.
+
+[Não consegui colocar bordas no tfoot.]
