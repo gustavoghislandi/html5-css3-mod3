@@ -1,0 +1,15 @@
+Escopos de grupo
+
+'scope' . Os valores podem ser:
+
+'row' e 'col' para uma única fileira de células, a depender se na linha ou na coluna. 
+
+e
+
+'rowgroup' e 'colgroup' quando for mais de uma fileira de células, sendo ou fileiras de linhas ou de colunas.
+
+Então:
+'col' é para dados na fileira de coluna abaixo.
+'row' é para dados na fileira de linha ao lado (direito).
+
+'colgroup' e 'rowgroup' é a mesma lógica, mas para mais fileiras.
