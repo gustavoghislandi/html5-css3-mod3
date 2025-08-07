@@ -1,0 +1,7 @@
+Mesclagem de células
+
+colspan é para quando o td ocupa mais de uma coluna.
+
+rowspan é para quando o td ocupa mais de uma linha.
+
+É fácil confundir, mas lembre-se que no colspan, por exemplo, o td vai continuar ocupando a mesma linha, mas vai ocupar mais de uma coluna.
